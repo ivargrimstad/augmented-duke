@@ -7,7 +7,7 @@ import jakarta.ws.rs.QueryParam;
 import jakarta.ws.rs.core.MediaType;
 
 @Path("mcp")
-public class SimpleMCP {
+public class SimpleMcpResource {
 
 
     @GET

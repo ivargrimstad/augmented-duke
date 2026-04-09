@@ -6,10 +6,10 @@ import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.QueryParam;
 import jakarta.ws.rs.core.MediaType;
 
-@Path("skills")
-public class SimpleSkills {
+@Path("chat")
+public class SimpleChatResource {
 
-    @GET
+    @GET()
     @Produces(MediaType.TEXT_PLAIN)
     public String callAI(@QueryParam("message") String message) {
 

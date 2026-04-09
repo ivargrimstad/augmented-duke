@@ -6,8 +6,8 @@ import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.QueryParam;
 import jakarta.ws.rs.core.MediaType;
 
-@Path("rag")
-public class SimpleRAG {
+@Path("memory")
+public class SimpleMemoryResource {
 
 
     @GET

@@ -6,9 +6,8 @@ import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.QueryParam;
 import jakarta.ws.rs.core.MediaType;
 
-@Path("memory")
-public class SimpleMemory {
-
+@Path("skills")
+public class SimpleSkillsResource {
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)

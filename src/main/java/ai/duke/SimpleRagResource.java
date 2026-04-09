@@ -6,8 +6,8 @@ import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.QueryParam;
 import jakarta.ws.rs.core.MediaType;
 
-@Path("chat")
-public class SimpleChat {
+@Path("rag")
+public class SimpleRagResource {
 
 
     @GET
