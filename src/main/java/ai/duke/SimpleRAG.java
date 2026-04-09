@@ -7,7 +7,7 @@ import jakarta.ws.rs.QueryParam;
 import jakarta.ws.rs.core.MediaType;
 
 @Path("rag")
-public class DukesAIResource {
+public class SimpleRAG {
 
 
     @GET

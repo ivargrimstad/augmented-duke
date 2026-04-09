@@ -1,4 +1,4 @@
-SimpleRAG.javapackage ai.duke;
+package ai.duke;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
@@ -7,8 +7,7 @@ import jakarta.ws.rs.QueryParam;
 import jakarta.ws.rs.core.MediaType;
 
 @Path("skills")
-public class DukesAIResource {
-
+public class SimpleSkills {
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
