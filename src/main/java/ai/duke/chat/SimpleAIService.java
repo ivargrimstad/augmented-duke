@@ -8,4 +8,5 @@ public interface SimpleAiService {
 
     @SystemMessage("You are a helpful assistant.")
     String chat(String message);
+
 }
