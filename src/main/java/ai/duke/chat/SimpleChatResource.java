@@ -10,7 +10,7 @@ import jakarta.ws.rs.core.MediaType;
 public class SimpleChatResource {
 
     @Inject
-    private SimpleAiService aiService;
+    private SimpleAiChatService aiService;
 
     @GET()
     @Produces(MediaType.TEXT_PLAIN)
