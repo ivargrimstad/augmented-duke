@@ -1,19 +1,22 @@
-package ai.duke;
+package ai.duke.chat;
 
+import jakarta.inject.Inject;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.QueryParam;
 import jakarta.ws.rs.core.MediaType;
 
-@Path("mcp")
-public class SimpleMcpResource {
+@Path("chat")
+public class SimpleChatResource {
 
+    @Inject
+    private SimpleAIService aiService;
 
-    @GET
+    @GET()
     @Produces(MediaType.TEXT_PLAIN)
     public String callAI(@QueryParam("message") String message) {
 
-        return "Todo: implement";
+        return aiService.chat(message);
     }
 }

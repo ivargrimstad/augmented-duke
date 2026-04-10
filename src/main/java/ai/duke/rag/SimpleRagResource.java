@@ -1,4 +1,4 @@
-package ai.duke;
+package ai.duke.rag;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
@@ -6,8 +6,8 @@ import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.QueryParam;
 import jakarta.ws.rs.core.MediaType;
 
-@Path("memory")
-public class SimpleMemoryResource {
+@Path("rag")
+public class SimpleRagResource {
 
 
     @GET

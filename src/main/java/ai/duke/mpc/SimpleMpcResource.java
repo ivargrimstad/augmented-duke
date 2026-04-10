@@ -1,4 +1,4 @@
-package ai.duke;
+package ai.duke.mpc;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
@@ -6,8 +6,9 @@ import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.QueryParam;
 import jakarta.ws.rs.core.MediaType;
 
-@Path("skills")
-public class SimpleSkillsResource {
+@Path("mcp")
+public class SimpleMpcResource {
+
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)

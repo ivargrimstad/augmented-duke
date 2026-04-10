@@ -1,0 +1,5 @@
+### Simple Chat
+GET http://localhost:8080/augmented-duke/ai/chat
+Content-Type: text/plain
+Hello, tell me something
+###

@@ -4,6 +4,6 @@ import jakarta.ws.rs.ApplicationPath;
 import jakarta.ws.rs.core.Application;
 
 @ApplicationPath("ai")
-public class AugmentedDuke extends Application {
+public class AugmentedDukeApplication extends Application {
 
 }
