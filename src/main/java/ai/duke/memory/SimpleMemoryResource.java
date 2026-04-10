@@ -10,7 +10,7 @@ import jakarta.ws.rs.core.MediaType;
 public class SimpleMemoryResource {
 
     @Inject
-    private SimpleMemoryService aiService;
+    private SimpleMemoryAiService aiService;
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
