@@ -3,7 +3,12 @@ GET http://localhost:8080/augmented-duke/ai/chat
 Content-Type: text/plain
 ###
 
-### Memory
+### Memory 1
 GET http://localhost:8080/augmented-duke/ai/memory
+Content-Type: text/plain
+###
+
+### Memory 2
+GET http://localhost:8080/augmented-duke/ai/memory/more
 Content-Type: text/plain
 ###
