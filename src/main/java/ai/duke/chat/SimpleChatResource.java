@@ -15,8 +15,8 @@ public class SimpleChatResource {
 
     @GET()
     @Produces(MediaType.TEXT_PLAIN)
-    public String callAI(@QueryParam("message") String message) {
+    public String callAI() {
 
-        return aiService.chat(message);
+        return aiService.chat("Hello, how are you?");
     }
 }

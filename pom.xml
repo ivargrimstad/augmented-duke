@@ -26,12 +26,12 @@
         <dependency>
             <groupId>dev.langchain4j.cdi</groupId>
             <artifactId>langchain4j-cdi-portable-ext</artifactId>
-            <version>1.2.0-Beta1</version>
+            <version>1.1.0</version>
         </dependency>
         <dependency>
             <groupId>dev.langchain4j.cdi.mp</groupId>
             <artifactId>langchain4j-cdi-config</artifactId>
-            <version>1.2.0-Beta1</version>
+            <version>1.1.0</version>
         </dependency>
         <dependency>
             <groupId>dev.langchain4j</groupId>

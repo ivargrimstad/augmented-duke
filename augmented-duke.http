@@ -1,5 +1,9 @@
 ### Simple Chat
 GET http://localhost:8080/augmented-duke/ai/chat
 Content-Type: text/plain
-Hello, tell me something
+###
+
+### Memory
+GET http://localhost:8080/augmented-duke/ai/memory
+Content-Type: text/plain
 ###
