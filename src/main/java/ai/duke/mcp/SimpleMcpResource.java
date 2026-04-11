@@ -1,4 +1,4 @@
-package ai.duke.mpc;
+package ai.duke.mcp;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
@@ -7,7 +7,7 @@ import jakarta.ws.rs.QueryParam;
 import jakarta.ws.rs.core.MediaType;
 
 @Path("mcp")
-public class SimpleMpcResource {
+public class SimpleMcpResource {
 
 
     @GET

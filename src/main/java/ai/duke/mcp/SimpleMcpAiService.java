@@ -1,10 +1,10 @@
-package ai.duke.mpc;
+package ai.duke.mcp;
 
 import dev.langchain4j.cdi.spi.RegisterAIService;
 import dev.langchain4j.service.SystemMessage;
 
 @RegisterAIService
-public interface SimpleMpcAiService {
+public interface SimpleMcpAiService {
 
     @SystemMessage("You are a helpful assistant.")
     String chat(String message);
