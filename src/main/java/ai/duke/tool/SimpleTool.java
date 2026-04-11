@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 @ApplicationScoped
 public class SimpleTool {
 
-    @Tool
+    @Tool("Get the current date and time in the user's timezone")
     String getCurrentDateTime() {
         return LocalDateTime.now()
                 .toString();
