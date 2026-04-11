@@ -12,3 +12,8 @@ Content-Type: text/plain
 GET http://localhost:8080/augmented-duke/ai/memory/more
 Content-Type: text/plain
 ###
+
+### Tool
+GET http://localhost:8080/augmented-duke/ai/tool
+Content-Type: text/plain
+###
