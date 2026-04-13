@@ -17,3 +17,8 @@ Content-Type: text/plain
 GET http://localhost:8080/augmented-duke/ai/tool
 Content-Type: text/plain
 ###
+
+### Skills
+GET http://localhost:8080/augmented-duke/ai/skills
+Content-Type: text/plain
+###
