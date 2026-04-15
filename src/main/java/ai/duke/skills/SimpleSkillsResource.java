@@ -1,5 +1,6 @@
 package ai.duke.skills;
 
+import ai.duke.chat.SimpleChatAiService;
 import dev.langchain4j.model.openai.OpenAiChatModel;
 import dev.langchain4j.service.AiServices;
 import jakarta.inject.Inject;
@@ -12,28 +13,24 @@ import jakarta.ws.rs.core.MediaType;
 public class SimpleSkillsResource {
 
     @Inject
-    private SimpleSkillsAiService aiService;
+    private SimpleChatAiService aiService;
+
+    @Inject
+    private SimpleSkillsAiService skilledAiService;
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String callAI() {
 
-        SimpleSkillsAiService skilledAiService = AiServices.builder(SimpleSkillsAiService.class)
-                .chatModel(OpenAiChatModel.builder()
-                        .apiKey(System.getenv("OPENAI_API_KEY"))
-                        .modelName("gpt-5")
-                        .build())
-                .systemMessage("""
-                        You are a helpful assistant.
-                        Follow these skill instructions:
-                        
-                        %s
-                        """.formatted(SkillsLoader.loadResourceAsString("myskills/ducks/SKILL.md")))
-                .build();
-
-//        return aiService.chat("What does a White Pekin duck speak?");
-       return skilledAiService.chat("What does a White Pekin duck speak?");
-
+       return new StringBuilder()
+               .append("*** No Skills Added***\n")
+               .append(aiService.chat("What does a White Pekin duck say?"))
+               .append("\n\n")
+               .append("*** With Skills Added***\n")
+               .append(skilledAiService.chat("What does a White Pekin duck say?"))
+               .append("\n\n")
+               .append("Famous Duck: ")
+               .append(skilledAiService.chat("Who is a famous White Pekin duck??"))
+               .toString();
     }
-
 }

@@ -17,5 +17,5 @@ The White Pekin Duck is the world's smallest duck breed, famous for its big pers
 - **Good With:** Adults and older children; can be fragile around toddlers
 - **Fun Fact:** White Pekin ducks have one of the longest lifespans of any duck breed.
 - **How The Speak:** "Aw, phooey!" "That’s the last straw!" "Why you… little… grrr!” (followed by incoherent quacking)"
-
+- **Famous White Pekin Duck:** Donald Duck
 ---
