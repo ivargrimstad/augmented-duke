@@ -26,22 +26,22 @@
         <dependency>
             <groupId>dev.langchain4j.cdi</groupId>
             <artifactId>langchain4j-cdi-portable-ext</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.0-Beta1</version>
         </dependency>
         <dependency>
             <groupId>dev.langchain4j.cdi.mp</groupId>
             <artifactId>langchain4j-cdi-config</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.0-Beta1</version>
         </dependency>
         <dependency>
             <groupId>dev.langchain4j</groupId>
             <artifactId>langchain4j</artifactId>
-            <version>1.12.2</version>
+            <version>1.13.0</version>
         </dependency>
         <dependency>
             <groupId>dev.langchain4j</groupId>
             <artifactId>langchain4j-open-ai</artifactId>
-            <version>1.12.2</version>
+            <version>1.13.0</version>
         </dependency>
 
         <dependency>
@@ -68,12 +68,12 @@
             <plugin>
                 <groupId>io.openliberty.tools</groupId>
                 <artifactId>liberty-maven-plugin</artifactId>
-                <version>3.10.3</version>
+                <version>3.12.0</version>
                 <configuration>
                     <runtimeArtifact>
                         <groupId>io.openliberty.beta</groupId>
                         <artifactId>openliberty-runtime</artifactId>
-                        <version>26.0.0.3-beta</version>
+                        <version>26.0.0.4-beta</version>
                         <type>zip</type>
                     </runtimeArtifact>
 
