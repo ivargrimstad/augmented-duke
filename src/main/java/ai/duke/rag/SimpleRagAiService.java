@@ -3,9 +3,9 @@ package ai.duke.rag;
 import dev.langchain4j.cdi.spi.RegisterAIService;
 import dev.langchain4j.service.SystemMessage;
 
-@RegisterAIService
+@RegisterAIService(contentRetrieverName = "doc-retriever")
 public interface SimpleRagAiService {
 
-    @SystemMessage("You are a helpful assistant.")
-    String chat(String message);
+    @SystemMessage("Answer questions based on the provided context. If unsure, say so.")
+    String askAboutDocuments(String message);
 }

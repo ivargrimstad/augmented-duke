@@ -19,7 +19,7 @@ public class SkillsAiServiceProducer {
                         .modelName("gpt-5")
                         .build())
                 .systemMessage("""
-                                                You are a helpful assistant.
+                        You are a helpful assistant.
                         Follow these skill instructions:
                         
                         %s
