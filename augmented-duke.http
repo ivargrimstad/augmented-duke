@@ -13,6 +13,16 @@ GET http://localhost:8080/augmented-duke/ai/memory/more
 Content-Type: text/plain
 ###
 
+### Tool
+GET http://localhost:8080/augmented-duke/ai/tool
+Content-Type: text/plain
+###
+
+### Skills
+GET http://localhost:8080/augmented-duke/ai/skills
+Content-Type: text/plain
+###
+
 ### RAG
 GET http://localhost:8080/augmented-duke/ai/rag
 Content-Type: text/plain
@@ -23,12 +33,3 @@ GET http://localhost:8080/augmented-duke/ai/mcp
 Content-Type: text/plain
 ###
 
-### Tool
-GET http://localhost:8080/augmented-duke/ai/tool
-Content-Type: text/plain
-###
-
-### Skills
-GET http://localhost:8080/augmented-duke/ai/skills
-Content-Type: text/plain
-###
