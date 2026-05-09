@@ -20,6 +20,7 @@ public class SkillsAiServiceProducer {
                         .build())
                 .systemMessage("""
                         You are a helpful assistant.
+                        Give short concise answers.
                         Follow these skill instructions:
                         
                         %s
