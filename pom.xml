@@ -135,9 +135,10 @@
                         <configuration>
                             <payaraServerVersion>7.2026.8</payaraServerVersion>
                             <javaHome>${java.home}</javaHome>
-                            <contextRoot>dukes</contextRoot>
+                            <contextRoot>augmented-duke</contextRoot>
                         </configuration>
-                    </plugin>                </plugins>
+                    </plugin>
+                </plugins>
             </build>
         </profile>
     </profiles>
