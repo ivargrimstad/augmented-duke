@@ -116,7 +116,7 @@
         <profile>
             <id>payara</id>
             <properties>
-                <!-- 2024-04-22: Payara does not run on Java 24. Works on 23. -->
+                <!-- 2024-04-22: Payara does not run on Java 26. Works on 23. -->
                 <maven.compiler.release>23</maven.compiler.release>
             </properties>
             <build>
