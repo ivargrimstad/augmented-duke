@@ -100,7 +100,7 @@
                     <dependency>
                         <groupId>fish.payara.extras</groupId>
                         <artifactId>payara-micro</artifactId>
-                        <version>7.2026.8</version>
+                        <version>7.2026.10</version>
                     </dependency>
                 </dependencies>
                 <executions>
@@ -111,7 +111,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <payaraVersion>7.2026.8</payaraVersion>
+                    <payaraVersion>7.2026.10</payaraVersion>
                     <deployWar>true</deployWar>
                     <contextRoot>augmented-duke</contextRoot>
                 </configuration>
