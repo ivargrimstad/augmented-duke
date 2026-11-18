@@ -16,6 +16,6 @@ public class SimpleMcpResource {
     @Produces(MediaType.TEXT_PLAIN)
     public String callAI() {
 
-        return simpleMcpAiService.chat("Show appointments for the duck Daisy with owner Betty Davis");
+        return simpleMcpAiService.chat("Show upcoming appointments for the duck Daisy with owner Betty Davis");
     }
 }
