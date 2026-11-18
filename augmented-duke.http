@@ -28,7 +28,7 @@ GET http://localhost:8081/augmented-duke/ai/rag
 Content-Type: text/plain
 ###
 
-### MCOP
+### MCP
 GET http://localhost:8081/augmented-duke/ai/mcp
 Content-Type: text/plain
 ###

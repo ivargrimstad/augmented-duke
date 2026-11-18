@@ -8,7 +8,7 @@ import dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.enterprise.inject.Produces;
 
-@ApplicationScoped
+//@ApplicationScoped
 public class EmbeddingProducers {
 
     @Produces
