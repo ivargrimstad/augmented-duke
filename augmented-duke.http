@@ -1,35 +1,35 @@
 ### Simple Chat
-GET http://localhost:8081/augmented-duke/ai/chat
+GET http://localhost:8090/augmented-duke/ai/chat
 Content-Type: text/plain
 ###
 
 ### Memory 1
-GET http://localhost:8081/augmented-duke/ai/memory
+GET http://localhost:8090/augmented-duke/ai/memory
 Content-Type: text/plain
 ###
 
 ### Memory 2
-GET http://localhost:8081/augmented-duke/ai/memory/more
+GET http://localhost:8090/augmented-duke/ai/memory/more
 Content-Type: text/plain
 ###
 
 ### Tool
-GET http://localhost:8081/augmented-duke/ai/tool
+GET http://localhost:8090/augmented-duke/ai/tool
 Content-Type: text/plain
 ###
 
 ### Skills
-GET http://localhost:8081/augmented-duke/ai/skills
+GET http://localhost:8090/augmented-duke/ai/skills
 Content-Type: text/plain
 ###
 
 ### RAG
-GET http://localhost:8081/augmented-duke/ai/rag
+GET http://localhost:8090/augmented-duke/ai/rag
 Content-Type: text/plain
 ###
 
 ### MCP
-GET http://localhost:8081/augmented-duke/ai/mcp
+GET http://localhost:8090/augmented-duke/ai/mcp
 Content-Type: text/plain
 ###
 
