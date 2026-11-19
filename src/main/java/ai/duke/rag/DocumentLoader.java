@@ -17,7 +17,7 @@ import jakarta.inject.Inject;
 import java.io.File;
 import java.util.List;
 
-@ApplicationScoped
+//@ApplicationScoped
 public class DocumentLoader {
 
     @Inject
